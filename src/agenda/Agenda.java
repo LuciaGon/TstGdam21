@@ -43,10 +43,14 @@ public class Agenda {
         return contacto;
     }
 
+    /**
+     * Busca un contacto en la agenda según su email
+     * @param email recibe el email del contacto para buscar el contacto
+     * @return null si no lo encuentra y si sí devuelve el contacto buscado
+     */
     public Contacto buscarContacto(String email) { 
         Contacto contacto = null;
         if (!contactos.containsKey(email)) {
-
             return null;
         }
         else{
