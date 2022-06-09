@@ -16,6 +16,12 @@ public class Agenda {
     private static int n = 0;
     private static int count = 0;
  
+    /**
+     * Añade un objeto contacto a la agenda
+     * @param contacto objeto contacto que se añade a la agenda
+     * @return el objeto contacto añadido
+     * @throws ContactoRepetidoException si hay un contacto repetido salta la excepción
+     */
     public Contacto addContacto(Contacto contacto) throws ContactoRepetidoException {
         if (contactos.containsKey(contacto.getEmail())) {
             //
