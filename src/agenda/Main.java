@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author loned
+ * @author Lucía González Carmona
  */
 public class Main {
 
