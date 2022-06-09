@@ -1,8 +1,8 @@
 /*
- * Grupo        :
- * Alumno       :
- * Numero Exp   :
- * Fecha
+ * Grupo        :	1º de GDAM Tarde
+ * Alumno       :	Lucía González Carmona
+ * Numero Exp   :	7253
+ * Fecha			09/06/2022
  */
 
 
